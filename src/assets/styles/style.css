@@ -101,12 +101,16 @@
     transition: all 0.5s;
 }
 
-.breadcrumbs a:hover,
-.breadcrumbs a:hover::after,
 .breadcrumbs a.active,
 .breadcrumbs a.active::after{
+    background: #ffffff;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:hover::after{
     background: #f1c40f;
 }
+
 
 .breadcrumbs a::before {
     content: counter(flag);
