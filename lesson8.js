@@ -1,4 +1,4 @@
-// Задание 1
+    // Задание 1
 
 const students = [
     { name: "Pavel", age: 20 },
